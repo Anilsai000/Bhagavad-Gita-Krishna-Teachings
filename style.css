@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: #fff8e7;
+  color: #3b2f2f;
+}
+
+.hero {
+  background: linear-gradient(to right, #f6d365, #fda085);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #e68900;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1e1c1;
+}
